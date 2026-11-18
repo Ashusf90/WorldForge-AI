@@ -38,9 +38,10 @@ class StoryEngine:
 
     def process_action(
         self, player_name, world_name, previous_scene,
-        previous_summary, action
+        previous_summary, action, use_rag=True
     ):
-        knowledge = self.lore.search_lore(action)
+        # Keep the baseline prompt identical except for retrieved lore context.
+        knowledge = self.lore.search_lore(action) if use_rag else []
 
         prompt = f"""
         You are the Dungeon Master of WorldForge AI.
