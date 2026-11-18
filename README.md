@@ -125,3 +125,20 @@ B.Tech – Computer Science and Engineering (AI)
  If you find this project interesting, consider giving it a star on GitHub!
 
 *Built with Python, Generative AI, RAG, and Agentic AI.*
+
+## Evaluation and reproducibility
+
+A repeatable evaluation suite is available in `eval/`. It includes 30 lore-grounded player actions, paired generation with retrieval enabled/disabled, a Gemini-based factual-grounding judge, a deterministic ten-case review sample, and planner three-step format checks.
+
+Run the evaluation from the repository root:
+
+```bash
+export GEMINI_API_KEY="your_api_key"
+python -m eval.run_generation
+python -m eval.judge
+python -m eval.sample_for_review
+python -m eval.schema_validity
+pytest -q tests/test_memory_roundtrip_eval.py
+```
+
+See [eval/README.md](eval/README.md) for metric definitions and limitations. Benchmark metrics are intentionally not pre-filled: report only results produced by running the scripts with a configured Gemini API key. The planner currently returns plain text, so its format metric is not native JSON-schema validation.

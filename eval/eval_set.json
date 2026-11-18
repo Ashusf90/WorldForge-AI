@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "topic": "Aethelgard",
+    "action": "Describe the kingdom of Aethelgard and name its capital.",
+    "ground_truth_facts": [
+      "Aethelgard is an ancient fantasy kingdom.",
+      "Its capital is Silverkeep."
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Aethelgard",
+    "action": "I travel toward the capital city.",
+    "ground_truth_facts": [
+      "The capital city of Aethelgard is Silverkeep."
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Aethelgard",
+    "action": "What kind of terrain surrounds this kingdom?",
+    "ground_truth_facts": [
+      "Aethelgard is surrounded by enchanted forests, forgotten ruins, and dangerous mountains."
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Whispering Forest",
+    "action": "I enter the Whispering Forest north of Silverkeep.",
+    "ground_truth_facts": [
+      "The Whispering Forest lies north of Silverkeep."
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Whispering Forest",
+    "action": "Can the trees here remember anything?",
+    "ground_truth_facts": [
+      "Trees in the Whispering Forest can remember conversations from the past."
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Whispering Forest",
+    "action": "I wait until sunset in the forest. What strange things might happen?",
+    "ground_truth_facts": [
+      "Strange shadows appear in the Whispering Forest after sunset."
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Whispering Forest",
+    "action": "I hear someone whisper my name among the trees.",
+    "ground_truth_facts": [
+      "Travellers sometimes hear their names being whispered in the Whispering Forest."
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Whispering Forest",
+    "action": "Tell me the unusual properties of the northern forest.",
+    "ground_truth_facts": [
+      "The Whispering Forest is north of Silverkeep.",
+      "Its trees can remember past conversations."
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Sunken Citadel",
+    "action": "I dive beneath the lake to find the Sunken Citadel.",
+    "ground_truth_facts": [
+      "The Sunken Citadel is an ancient city hidden beneath a lake."
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Sunken Citadel",
+    "action": "Who built the city under the lake?",
+    "ground_truth_facts": [
+      "The Sunken Citadel once belonged to a powerful civilization."
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Sunken Citadel",
+    "action": "What might I discover inside the submerged ruins?",
+    "ground_truth_facts": [
+      "The Sunken Citadel contains forgotten treasures and magical secrets."
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Sunken Citadel",
+    "action": "Describe the history and location of the Sunken Citadel.",
+    "ground_truth_facts": [
+      "It is an ancient city hidden beneath a lake.",
+      "It once belonged to a powerful civilization."
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Shadow Beast",
+    "action": "A Shadow Beast emerges near the cursed ruins. Describe it.",
+    "ground_truth_facts": [
+      "The Shadow Beast is found near cursed ruins.",
+      "It has dark skin, glowing red eyes, and powerful claws."
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Shadow Beast",
+    "action": "What are the Shadow Beast's weaknesses?",
+    "ground_truth_facts": [
+      "The Shadow Beast is weak against magical weapons."
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Shadow Beast",
+    "action": "I prepare to fight the monster with a magical weapon.",
+    "ground_truth_facts": [
+      "Magical weapons are effective against the Shadow Beast."
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Shadow Beast",
+    "action": "Where would an adventurer encounter a Shadow Beast?",
+    "ground_truth_facts": [
+      "The Shadow Beast is found near cursed ruins."
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Crystal Sword",
+    "action": "I discover a legendary Crystal Sword. What is its origin?",
+    "ground_truth_facts": [
+      "The Crystal Sword was created by ancient blacksmiths."
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "Crystal Sword",
+    "action": "What does the Crystal Sword do when danger approaches?",
+    "ground_truth_facts": [
+      "The Crystal Sword glows when danger is nearby."
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Crystal Sword",
+    "action": "Can this sword harm dark creatures?",
+    "ground_truth_facts": [
+      "The Crystal Sword can damage dark creatures."
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Crystal Sword",
+    "action": "Describe the Crystal Sword's known abilities.",
+    "ground_truth_facts": [
+      "It can damage dark creatures.",
+      "It glows when danger is nearby."
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Elara",
+    "action": "I seek out Elara the Wise near Silverkeep.",
+    "ground_truth_facts": [
+      "Elara is an old wizard who lives near Silverkeep."
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Elara",
+    "action": "Who can guide me through the history of Aethelgard?",
+    "ground_truth_facts": [
+      "Elara knows the history of Aethelgard and can guide adventurers."
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Elara",
+    "action": "I ask Elara for help, but she hesitates. Why?",
+    "ground_truth_facts": [
+      "Elara rarely shares information without a reason."
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Elara",
+    "action": "Describe Elara and what she knows.",
+    "ground_truth_facts": [
+      "Elara is an old wizard near Silverkeep.",
+      "She knows Aethelgard's history and can guide adventurers."
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "King Arveth",
+    "action": "Who ruled Aethelgard long ago?",
+    "ground_truth_facts": [
+      "Aethelgard was once ruled by King Arveth."
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "King Arveth",
+    "action": "What happened to King Arveth?",
+    "ground_truth_facts": [
+      "King Arveth disappeared after opening a mysterious portal beneath the Sunken Citadel."
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "King Arveth",
+    "action": "Where was the mysterious portal opened?",
+    "ground_truth_facts": [
+      "The portal was beneath the Sunken Citadel."
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "King Arveth",
+    "action": "Does anyone know what happened to the lost king?",
+    "ground_truth_facts": [
+      "Nobody knows what happened to King Arveth."
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Cross-lore",
+    "action": "I investigate the connection between King Arveth and the Sunken Citadel.",
+    "ground_truth_facts": [
+      "King Arveth disappeared after opening a mysterious portal beneath the Sunken Citadel."
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Cross-lore",
+    "action": "I ask Elara about the old kingdom and its missing king.",
+    "ground_truth_facts": [
+      "Elara knows the history of Aethelgard.",
+      "Aethelgard was once ruled by King Arveth, who disappeared after opening a portal beneath the Sunken Citadel."
+    ]
+  }
+]
